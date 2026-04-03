@@ -109,15 +109,6 @@ export function TaskList({ onEditTask }: { onEditTask: (task: Task) => void }) {
           ))}
         </ul>
       </SortableContext>
-      {!dndEnabled && tasks.length > 0 && (
-        <p
-          className="mt-5 rounded-xl border border-dashed border-[var(--border)]/80 bg-[var(--code-bg)]/40 px-4 py-3 text-center text-[0.7rem] font-medium uppercase tracking-[0.12em] text-[var(--text)]/70"
-          role="status"
-        >
-          Reorder: show all tasks, clear search — then drag rows (sort becomes
-          Custom).
-        </p>
-      )}
     </DndContext>
   );
 }
