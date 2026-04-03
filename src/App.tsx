@@ -38,10 +38,10 @@ function TaskApp() {
       <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="mb-1 text-3xl font-medium tracking-tight text-[var(--text-h)] sm:text-4xl">
-            Task Manager
+            Task Pilot
           </h1>
           <p className="text-sm text-[var(--text)]">
-            Create, filter, and persist tasks — with optional drag reorder.
+            Rise above the chaos and take charge of your day.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-3">
